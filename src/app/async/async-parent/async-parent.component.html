@@ -1,0 +1,6 @@
+<ng-container *ngIf="currentPage$ | async as currentPage">
+  <app-async-child [currentPage]="currentPage">
+  </app-async-child>
+</ng-container>
+
+
